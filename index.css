@@ -27,7 +27,7 @@
   margin-top: 3.2rem;
 }
 
-.button1 {
+.buttons .button {
   background-color: #e9ecef;
   color: #212529;
   border: none;
@@ -37,12 +37,8 @@
   margin-right: 10px;
 }
 
-.button2 {
-  background-color: #e9ecef;
-  color: #212529;
-  border: none;
-  border-radius: 6px;
-  padding: 12px 2rem;
-  display: inline-block;
-  margin-right: 10px;
+.buttons .button-text {
+  font-size: 18px;
+  line-height: 23.76px;
+  font-weight: 700;
 }
