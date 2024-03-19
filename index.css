@@ -42,3 +42,45 @@
   line-height: 23.76px;
   font-weight: 700;
 }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 25px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-right: 400px;
+  margin-top: 10px;
+  font-size: 19px;
+}
+
+.item {
+  display: flex;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.chat {
+  border-style: ridge;
+  padding-top: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+}
+.body4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+img {
+  width: 650px;
+  height: 750px;
+}
