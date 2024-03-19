@@ -191,18 +191,20 @@ img {
   margin-right: 30px;
 }
 
-#subhead1 {
+#subhead1,
+#subhead3 {
   font-weight: 700;
   font-size: 18px;
   color: #ff6f0f;
   margin-bottom: 10px;
 }
 
-#walk {
+#walk,
+#near {
   font-size: 42px;
   line-height: 57px;
   margin: 1px;
-  font-weight: 600;
+  font-weight: 620;
 }
 
 #subhead2 {
@@ -213,7 +215,8 @@ img {
   margin-bottom: 30px;
 }
 
-#bttn1 {
+#bttn1,
+#bttn2 {
   background-color: #e9ecef;
   color: #212529;
   border: none;
@@ -224,4 +227,41 @@ img {
   margin-right: 10px;
   font-size: 18px;
   font-weight: 600;
+}
+
+.body5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+#left_sec2 {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  color: #212529;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-right: 90px;
+  margin-bottom: 25px;
+}
+
+#right_sec2 {
+  margin-right: 10px;
+}
+
+#city {
+  margin-right: 1px;
+}
+
+#subhead4 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #7c7c7c;
+  line-height: 30px;
+  margin-bottom: 30px;
+  margin-top: 10px;
 }
