@@ -63,12 +63,40 @@
         <div class="item">부동산 직거래</div>
         <div class="item">중고차 직거래</div>
       </div>
-      <div>검색창</div>
+      <input type ='search'
+        class="search"
+        placeholder="물폼이나 동네를 검색해보세요">
+      </input>
       <div class="chat">채팅하기</div>
     </header>
 
+
+    <div class="section1">
+      <div class="box">
+        <div class='letter'>당신 근처의 <br> 지역 생활 커뮤니티 </div>
+        <div class="sletter">동네라서 가능한 모든 것 <br> 당근에서 가까운 이웃과 함께해요.</div>
+        <div class="image">
+          <div class="image1">
+            <img class="googleplay" alt="Google Play" src="https://d1unjqcospf8gs.cloudfront.net/assets/home/base/header/google-play-white-0531cab5dbe15262e226cfb4acebeb316708ae0034d50b86ad4d809a03b6f5f0.svg">
+            <div class="google">Google Play</div>
+          </div>
+          <div class="image2">
+            <img class="store" alt="App Store" src="https://d1unjqcospf8gs.cloudfront.net/assets/home/base/header/apple-store-white-9ebb10b431c549dd19f032f70e6762df307939b5add030265d9c2dea888b2d03.svg">
+            <div class="app">App Store</div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="bigimage">
+        <img src="img_minseok/tokki.png" alt="중고거래, 동네생활 질문글, 알바와 동네업체" >
+      </div>
+    </div>
+
+
+   
+
     <div id="section1"></div>
-    <div class="body4">
+    <div class="body4" style="background-color: #f9f9f9">
       <section id="left_sec">
         <img
           srcset="
@@ -81,9 +109,9 @@
         />
       </section>
 
-      <section id="right_sec">
+      <section class="right_sec">
         <p id="subhead1">알바</p>
-        <h1>
+        <h1 id="walk">
           걸어서 10분! <br />
           동네 알바 구하기
         </h1>
@@ -91,9 +119,38 @@
           당근하듯 쉽고, 편하게 <br />
           당근 알바로 동네 알바를 구할 수 있어요.
         </p>
-        <a id="button1">내 근처 알바 보기</a>
+        <a id="bttn1">내근처 알바 보기</a>
       </section>
     </div>
+
+    <div class="body5" style="background-color: #f6fdec">
+      <section id="left_sec2">
+        <p id="subhead3">동네업체</p>
+        <h1 id="near">
+          내 근처에서 찾는 <br />
+          동네업체
+        </h1>
+        <p id="subhead4">
+          이웃들의 추천 후기를 확인하고 <br />
+          동네 곳곳의 업체들을 찾을 수 있어요.
+        </p>
+        <a id="bttn2">당근 동네업체 보기</a>
+      </section>
+
+      <section id="right_sec2">
+        <img
+          id="city"
+          srcset="
+            https://d1unjqcospf8gs.cloudfront.net/assets/home/main/3x/image-business-cc45c805de4a639e259aea606640042d09bccf358e8d20f50af325dd994aceef.webp
+          "
+          class="home-main-image-04"
+          loading="lazy"
+          alt="내 근처에서 찾는 동네업체"
+          src="https://d1unjqcospf8gs.cloudfront.net/assets/home/main/3x/image-business-cc45c805de4a639e259aea606640042d09bccf358e8d20f50af325dd994aceef.webp"
+        />
+      </section>
+    </div>
+
 
     <div id="body5"></div>
 
@@ -189,3 +246,4 @@
     </div>
   </body>
 </html>
+
