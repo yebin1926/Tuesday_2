@@ -24,7 +24,8 @@
 
 .chat {
   border-style: ridge;
-  padding-top: 10px;
+  padding-top: 5px;
   padding: 10px;
   border-radius: 5px;
+  align-items: center;
 }
