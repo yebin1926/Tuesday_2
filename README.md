@@ -1,4 +1,4 @@
-# CarrotClone_Tuesday_Group1
+# CarrotClone_Tuesday_Group2
 
 당근마켓 클론코딩 - 2주차 과제
 
@@ -9,4 +9,8 @@
     - 박혜리: body2 & body3
     - 편예빈: body4 & body5
     - 이나경: footer
-- 스크린샷
+- 스크린샷 :
+  
+    ![image](https://github.com/yebin1926/Tuesday_2/assets/115696225/17bdc361-8f35-4add-8929-b67ce917f48d)
+
+
