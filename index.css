@@ -91,7 +91,7 @@
   align-items: center;
   padding: 1px; */
   width: 50%;
-  margin-right: 15%
+  margin-right: 15%;
 }
 /************** BODY 1 **************/
 
@@ -251,7 +251,8 @@
   margin-left: 30px;
 }
 
-#taehyun, #city {
+#taehyun,
+#city {
   width: 650px;
   height: 750px;
   margin-right: 30px;
@@ -434,4 +435,10 @@
   justify-content: flex-start;
   gap: 50px;
   margin-top: 20px;
+}
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
